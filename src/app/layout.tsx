@@ -1,5 +1,12 @@
 import './globals.css'
 
+import { Roboto_Mono } from 'next/font/google'
+
+const roboto_mono = Roboto_Mono({
+  weight: '400',
+  subsets: ['latin'],
+})
+
 export default function RootLayout({
   children,
 }: {
@@ -7,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={roboto_mono.className}>{children}</body>
     </html>
   )
 }
