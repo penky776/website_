@@ -13,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="no-scrollbar">
       <body className={roboto_mono.className}>{children}</body>
     </html>
   )
