@@ -1,3 +1,14 @@
 .github-icon {
     color: #ffffff
 }
+
+.progress-bar {
+    position: fixed;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: rgb(181, 184, 194);
+    transform-origin: 50%;
+    z-index: -1;
+}

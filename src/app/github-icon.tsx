@@ -7,7 +7,7 @@ function GithubIcon() {
                 href="https://github.com/penky776">
                 <motion.svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="github-icon h-7 w-7"
+                    className="icon github-icon h-7 w-7"
                     fill="currentColor"
                     viewBox="0 0 24 24"
                     whileHover={{ scale: 1.2, transition: { type: "spring", stiffness: 400, damping: 10 } }}

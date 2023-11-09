@@ -6,7 +6,7 @@ function InstaIcon() {
             <a
                 href="https://instagram.com/_emeel1_?igshid=MTg5Zzh6eGYxNjB3dw%3D%3D&utm_source=qr">
                 <motion.svg whileHover={{ scale: 1.2, transition: { type: "spring", stiffness: 400, damping: 10 } }} xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5"
+                    className="icon h-5 w-5"
                     fill="currentColor"
                     viewBox="0 0 24 24">
                     <path
