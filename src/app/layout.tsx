@@ -14,6 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="no-scrollbar">
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Me</title>
+      </head>
       <body className={roboto_mono.className}>{children}</body>
     </html>
   )
