@@ -1,8 +1,8 @@
 import './globals.css'
 
-import { Roboto_Mono } from 'next/font/google'
+import { Libre_Baskerville } from 'next/font/google'
 
-const roboto_mono = Roboto_Mono({
+const baskerville = Libre_Baskerville({
   weight: '400',
   subsets: ['latin'],
 })
@@ -19,7 +19,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Me</title>
       </head>
-      <body className={roboto_mono.className}>{children}</body>
+      <body className={baskerville.className}>{children}</body>
     </html>
   )
 }
