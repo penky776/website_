@@ -18,3 +18,8 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}

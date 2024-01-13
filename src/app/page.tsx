@@ -13,7 +13,8 @@ export default function Home() {
     stiffness: 100,
     damping: 30,
     restDelta: 0.001
-  })
+  });
+
   return (
     <main>
       <motion.div className="progress-bar" style={{ scaleX }} />
@@ -22,20 +23,27 @@ export default function Home() {
       </div>
 
       <div className="min-h-screen flex flex-col items-center justify-center p-8">
-        <div className="flex flex-col items-center border-y-2 shadow md:flex-row md:max-w-xl border-zinc-700 bg-black">
-          <div className="flex flex-col justify-between p-4 leading-normal" style={{ fontFamily: 'Baskerville1785', fontSize: '25px' }}>
-            <center>enthusiastic about the art of the mad <br />and the non-professional</center>
-          </div>
+        <div className="flex flex-col border-y-2 shadow border-zinc-700 justify-between p-4 leading-normal" style={{ fontFamily: 'Baskerville1785', fontSize: '25px' }}>
+          <center>enthusiastic about the art of the mad <br />and the non-professional<br />
+          </center>
         </div>
-      </div >
-
-      <div className="min-h-screen flex items-center justify-center p-8">
-        <div className="flex flex-col items-center shadow md:flex-row md:max-w-xl bg-black">
+        <div className="pb-4"></div>
+        <div className="flex flex-col items-center bg-black md:flex-row md:max-w-xl">
           <EmailIcon />
           <GithubIcon />
           <InstaIcon />
         </div>
+      </div>
+
+      <div className="min-h-screen flex items-center justify-center p-8">
+        <div className="flex flex-col justify-between p-4 leading-normal" style={{ fontFamily: 'OldLondon', fontSize: '30px' }}>
+          <p>That the play is the tragedy “Man,” <br />
+            <span className="tab"></span> And its hero the Conqueror Worm.
+            <br />
+            <span style={{ fontFamily: 'Baskerville1785', fontSize: '20px' }}>  - Edgar Allan Poe, The Conquerer Worm</span></p>
+        </div>
       </div >
+
     </main >
   )
 }
