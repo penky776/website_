@@ -1,6 +1,6 @@
-import EmailIcon from "../icons/email-icon-dark";
-import GithubIcon from "../icons/github-icon-dark";
-import InstaIcon from "../icons/insta-icon-dark";
+import EmailIcon from "../icons/email-icon";
+import GithubIcon from "../icons/github-icon";
+import InstaIcon from "../icons/insta-icon";
 
 import "../styles/fonts.css"
 import "../styles/style.css"
