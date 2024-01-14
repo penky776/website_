@@ -1,5 +1,17 @@
-.github-icon {
-    color: #ffffff
+@media (prefers-color-scheme: dark) {
+    .progress-bar {
+        background: rgb(181, 184, 194);
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .github-icon {
+        color: #000000
+    }
+
+    .progress-bar {
+        background: rgb(0, 0, 0);
+    }
 }
 
 .progress-bar {
@@ -8,7 +20,6 @@
     right: 0;
     height: 1px;
     bottom: 100px;
-    background: rgb(181, 184, 194);
     transform-origin: 50%;
 }
 

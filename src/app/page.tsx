@@ -1,12 +1,12 @@
 'use client';
 import { motion, useScroll, useSpring } from "framer-motion";
 
-import '../styles/fonts.css'
-import "./style.css"
+import './styles/fonts.css'
+import "./styles/style.css"
 
-import Poe from "./poe";
-import Me from "./me";
-import DoubleDown from "./double-down";
+import Poe from "./sections/poe";
+import Me from "./sections/me";
+import DoubleDown from "./icons/double-down";
 
 export default function Home() {
   const { scrollYProgress } = useScroll();
@@ -18,7 +18,6 @@ export default function Home() {
 
   return (
     <main>
-
       <motion.div className="progress-bar" style={{ scaleX }} />
       <div className="scroll">
         <DoubleDown />
@@ -31,7 +30,6 @@ export default function Home() {
       <section>
         <Poe />
       </section>
-
     </main >
   )
 }

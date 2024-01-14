@@ -1,5 +1,5 @@
 import '../styles/fonts.css'
-import "./style.css"
+import "../styles/style.css"
 
 function poe() {
     return (

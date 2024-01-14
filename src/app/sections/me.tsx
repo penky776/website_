@@ -1,9 +1,9 @@
-import EmailIcon from "./email-icon";
-import GithubIcon from "./github-icon";
-import InstaIcon from "./insta-icon";
+import EmailIcon from "../icons/email-icon-dark";
+import GithubIcon from "../icons/github-icon-dark";
+import InstaIcon from "../icons/insta-icon-dark";
 
-import '../styles/fonts.css'
-import "./style.css"
+import "../styles/fonts.css"
+import "../styles/style.css"
 
 function me() {
     return (
@@ -13,7 +13,7 @@ function me() {
                 </center>
             </div>
             <div className="pb-4"></div>
-            <div className="flex flex-col items-center bg-black md:flex-row md:max-w-xl">
+            <div className="flex flex-col items-center md:flex-row md:max-w-xl">
                 <EmailIcon />
                 <GithubIcon />
                 <InstaIcon />
@@ -21,6 +21,5 @@ function me() {
         </div>
     );
 }
-
 
 export default me;
