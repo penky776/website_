@@ -24,8 +24,13 @@ export default function Home() {
         <DoubleDown />
       </div>
 
-      <Me />
-      <Poe />
+      <section>
+        <Me />
+      </section>
+
+      <section>
+        <Poe />
+      </section>
 
     </main >
   )

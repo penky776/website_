@@ -23,3 +23,11 @@
     display: inline-block;
     margin-left: 40px;
 }
+
+section {
+    scroll-snap-align: center;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
