@@ -4,7 +4,7 @@ function InstaIcon() {
     return (
         <div className="flex flex-col justify-between p-3 leading-normal">
             <a
-                href="https://instagram.com/_emeel1_?igshid=MTg5Zzh6eGYxNjB3dw%3D%3D&utm_source=qr">
+                href="https://www.instagram.com/m_ee_sam?igsh=MTg5Zzh6eGYxNjB3dw%3D%3D&utm_source=qr">
                 <motion.svg whileHover={{ scale: 1.2, transition: { type: "spring", stiffness: 400, damping: 10 } }} xmlns="http://www.w3.org/2000/svg"
                     className="icon h-5 w-5"
                     fill="currentColor"
