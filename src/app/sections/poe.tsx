@@ -10,7 +10,6 @@ function poe() {
             .then(response => response.text())
             .then(text => {
                 const lines = text.split('\n');
-                console.log(`text: ${text}`);
                 const randomIndex = Math.floor(Math.random() * lines.length);
                 setQuote(lines[randomIndex]);
             });
@@ -27,7 +26,7 @@ function poe() {
                     <span className="tab"></span> <span style={{ fontFamily: 'OldLondon', fontSize: '20px' }}>  - Edgar Allan Poe</span>
                 </p>
             </div>
-        </div >
+        </div>
     );
 }
 

@@ -39,3 +39,15 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-start-rgb));
 }
+
+/* some animations don't work on mobile devices */
+@media (max-width: 768px) {
+
+  html,
+  body,
+  #root {
+    /* Prevents overflow on the x-axis */
+    overflow-x: hidden;
+  }
+
+}
