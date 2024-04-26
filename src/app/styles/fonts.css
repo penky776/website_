@@ -11,3 +11,24 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Comic Sans';
+    src: url('fonts/COMICSANS.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Sans Bold';
+    src: url('fonts/COMICSANSBOLD.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('fonts/design.graffiti.comicsansmsgras.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -8,8 +8,8 @@ import "../styles/style.css"
 function me() {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center p-8">
-            <div className="flex flex-col border-y-2 shadow border-zinc-700 justify-between p-4 leading-normal" style={{ fontFamily: 'Baskerville1785', fontSize: '25px' }}>
-                <center>the art of the mad and the non-professional<br />
+            <div className="flex flex-col border-y-2 shadow border-zinc-700 justify-between p-4 leading-normal" style={{ fontFamily: 'Comic Sans MS', fontSize: '20px' }}>
+                <center>hi welcome to site. i made this for the aesthetic. also, poe quotes.<br />
                 </center>
             </div>
             <div className="pb-4"></div>
